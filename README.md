@@ -28,6 +28,10 @@ SERVER_ADDRESS=localhost;SERVER_PORT=8000;DB_USER=root;DB_PASSWORD=pwd;DB_NAME=b
 
 3. Run go app
 
+### TODO
+
+- Refactor the constants aka magic string/number (Not sure if there's any annotation processor that can generate fieldname const for the repo table struct)
+
 ### Potential Improvement
 
 - Better code structure, shifting some cross-cutting concern packages such as errs and logger to a separate go module.
